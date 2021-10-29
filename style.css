@@ -6,6 +6,7 @@
 
 
 
+
 .topnav {
     background-color: black;
     overflow: hidden;
@@ -78,7 +79,7 @@
   form {border: 3px solid #f1f1f1;}
   
   input[type=text], input[type=password] {
-    width: 100%;
+    width: 300px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -93,18 +94,11 @@
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 200px;
   }
   
   button:hover {
     opacity: 0.8;
-  }
-  
-  .registerbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color:rgb(66, 153, 66);
-    color: white;
   }
   
   
@@ -113,7 +107,7 @@
   }
   
   span.psw {
-    float: right;
+    margin-left: 50px;
     padding-top: 16px;
   }
   
