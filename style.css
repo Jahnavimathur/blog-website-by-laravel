@@ -9,6 +9,12 @@
     justify-content: flex-start;
     align-items: center;
     padding: 30px;
+    padding-left: 150px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 50px;
+    opacity: 70%;
     
   }
   
@@ -95,6 +101,7 @@
   
   .container {
     padding: 16px;
+    margin-right: -200px;
   }
   
   span.psw {
@@ -176,12 +183,3 @@
 }
 
 
-
-.footer{
-        background-color: black;
-        overflow: hidden;
-        color: #f2f2f2;
-        padding: 14px 16px;
-        text-align: center;
-        
-}
