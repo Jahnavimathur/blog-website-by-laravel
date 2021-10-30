@@ -1,24 +1,15 @@
 
-*{
-  padding: 12;
-  margin: 0;
-}
-
-
 
 
 .topnav {
     background-color: black;
     overflow: hidden;
-
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
     
-      height: 58px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      font-family: 'Poppins', sans-serif;
- 
-
   }
   
   /* Style the links inside the navigation bar */
@@ -141,15 +132,15 @@
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
-    
+    display: inline-block;
 }
 
 
 
 .bg{
     background-size: 100%;
-    background-repeat: no-repeat;
-    color:white;
+    background-repeat:no-repeat;
+    
 }
 
 .font-awesome{
@@ -161,10 +152,36 @@
 
 
 
+.content {
+  float: left;
+  padding: 0 20px 20px 0;
+ }
+
+
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column:hover .image {
+  opacity: 0.3;
+}
+
+
+
 .footer{
         background-color: black;
         overflow: hidden;
         color: #f2f2f2;
         padding: 14px 16px;
         text-align: center;
+        
 }
