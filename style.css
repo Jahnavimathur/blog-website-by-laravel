@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 .topnav {
     background-color: black;
@@ -33,11 +32,34 @@
     background-color: #ddd;
     color: black;
   }
-  
-  
 
 
+  
+  .login{
+    margin: 250px;
+  }
+  
+  .main-heading{
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+  }
+
+.main-page-text{
+  margin:90px;
+  padding: 20px;
+  background-color: rgb(225, 231, 241);
+  text-align: center;
+}
  
+.main-page-h2{
+ font-size:50px;
+}
+
+.main-page-h3{
+  font-size:30px;
+}
+
+
   .card {
     float:left;
     width: 25%;
@@ -60,6 +82,7 @@
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+   
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
@@ -164,11 +187,13 @@
   padding: 0 20px 20px 0;
  }
 
+ 
 
  .column {
   float: left;
   width: 33.33%;
   padding: 5px;
+
 }
 
 /* Clearfix (clear floats) */
@@ -182,4 +207,61 @@
   opacity: 0.3;
 }
 
+.font-awesome{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ 
+}
+#i{
+  padding: 9px;
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 10px;
+}
 
+
+
+#myBtn{
+  padding: 10px 30px;
+  background-color: rgb(149,170,197);
+  color:black;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  
+} 
+
+#mybtn1{
+  padding: 10px 30px;
+  background-color: rgb(149,170,197);
+  color:black;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  
+}
+
+.text .show-more .moreText{
+  display:inline;
+}
+
+.text .show-more .dots{
+  display: none;
+}
+
+footer{
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -9,113 +9,170 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-
-
+  <script src="./script.js"></script>
+  <style>
+    #more {display: none;}
+    </style>
 </head>
 
 <body>
+  <div class="bg" style="background-image: url('Images/background 4.jpg');">
+
+    <br>
+    <header>
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="services.html">Services</a>
+        <a href="aboutus.html">About Us</a>
+
+        <div class="login">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+  
+        </div>
+
+      </div>
+
+    </header>
+
+    <div style="padding:150px; color:white">
+
+      <h2><b>OUR WEBSITE Services</b></h2><br>
+
+      <p><b>WebFX is a leading web design agency with an award-winning design team that creates innovative,
+          effective websites that capture your brand, improve your conversion rates,
+          and maximize your revenue to help grow your business and achieve your goals.</b></p>
+
+    </div>
+  </div>
+
   <div class="bg" style="background-image: url('Images/background 2.jpg');">
 
-  <header>
-    <div class="topnav">
-      <a  href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="services.html">Services</a>
-      
-      <a href="aboutus.html">About Us</a>
+    <main>
+      <br><br>
+      <center>
+        <h2 style="color:white;"><b>Our Services</b></h2>
+      </center>
+      <div class="box-model" style="margin:100px;">
+        <h3>Service 1</h3>
+        <div class="text">
+        <p>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border.<span class="">...</span><span
+          <span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+          <button onclick="myFunction()" id="myBtn">Read more</button>
+      </div>
+      </div>
 
+      <div class="box-model">
+        <h3>Service 2</h3>
+
+        <div class="text">
+          <p>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border.<span class="">...</span><span
+            <span id="dots1">...</span><span id="readmore1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+            <button onclick="myFunction1()" id="mybtn1">Read more</button>
+        </div>
+      </div>
+     
+
+    </main>
+  </div>
+
+
+  <div class="row">
+    <div class="column" style="padding: 50px;">
+      <img src="Images/content writing.jpg" alt="room 1" class="image" style="width:100%">
+      <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+        Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.
+        ... One of the most important of these is a topic sentence.</p>
+    </div>
+    <div class="column" style="padding: 50px;">
+      <img src="Images/laravel.jpg" alt="room 2" class="image" style="width:100%">
+      <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+        Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.
+        ... One of the most important of these is a topic sentence.</p>
 
     </div>
+    <div class="column" style="padding: 50px;">
+      <img src="Images/web development.jpg" alt="room 3" class="image" style="width:100%">
+      <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+        Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.
+        ... One of the most important of these is a topic sentence.</p>
 
-  </header>
-  <div class="bg" style="background-image: url('Images/background 3.jpg');">
+    </div>
+    <div class="column" style="padding: 50px;">
+      <img src="Images/content writing.jpg" alt="room 4" class="image" style="width:100%">
+      <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+        Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.
+        ... One of the most important of these is a topic sentence.</p>
 
-    <div style="padding:150px;">
-    
-        <h2><b>OUR WEBSITE Services</b></h2><br>
-              
-              <p><b>WebFX is a leading web design agency with an award-winning design team that creates innovative, 
-                  effective websites that capture your brand, improve your conversion rates, 
-                  and maximize your revenue to help grow your business and achieve your goals.</b></p>
-              
-            </div>
-            </div>
-  <main>
+    </div>
+    <div class="column" style="padding: 50px;">
+      <img src="Images/laravel.jpg" alt="room 5" class="image" style="width:100%">
+      <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+        Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.
+        ... One of the most important of these is a topic sentence.</p>
 
-    <center>
-      <h2 style="color:white;"><b>Our Services</b></h2>
-    </center>
-    <div class="box-model" style="margin:100px;">
-      <h3>Service 1</h3>
-      <p>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="column" style="padding: 50px;">
+      <img src="Images/web development.jpg" alt="room 6" class="image" style="width:100%">
+      <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+        Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.
+        ... One of the most important of these is a topic sentence.</p>
+
+    </div>
+  </div>
+  <footer>
+    <div class="card" style="background-color: rgb(0, 0, 0);">
+      <div class="card-body" style="color: white;">
+        <h3 class="card-title"><b>Services</b></h3><br>
+        <p class="card-text">
+        <ul>
+          <li>Content Writing</li><br>
+          <li>Web Development</li><br>
+          <li>Laravel</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="box-model">
-      <h3>Service 2</h3>
-      <p>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="box-model" style="margin:100px;">
-      <h3>Service 3</h3>
-      <p>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="box-model">
-      <h3>Service 4</h3>
-      <p>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="card" style="background-color: rgb(0, 0, 0);">
+      <div class="card-body" style="color: white;">
+        <h3 class="card-title"><b>Resources</b></h3><br>
+        <p class="card-text">
+        <ul>
+          <li> <a href="services.html">Services</a></li><br>
+          <li><a href="blog.html">Blog</a></li><br>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </div>
     </div>
 
-  </main>
-</div>
 
+    <div class="card" style="padding-bottom: 37px; background-color: rgb(0,0,0);">
+      <div class="card-body" style="color: white;">
+        <center>
+          <h3 class="card-title"><b>Contact Us</b></h3>
+          <p class="card-text" style="padding-top:20px ;">
 
-<div class="row">
-  <div class="column">
-    <img src="Images/content writing.jpg" alt="room 1" class="image" style="width:100%">
-    <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... One of the most important of these is a topic sentence.</p>
-  </div>
-  <div class="column">
-    <img src="Images/laravel.jpg" alt="room 2" class="image" style="width:100%">
-   <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... One of the most important of these is a topic sentence.</p>
+            <a href="www.facebook.com"><i class="fa fa-facebook" id="i"></i></a>
+            <a href="www.instagram.com"><i class="fa fa-instagram" id="i"></i></a>
+            <a href="www.linkedin.com"><i class="fa fa-linkedin" id="i"></i></a>
+            <a href="www.twitter.com"><i class="fa fa-twitter" id="i"></i></a>
+            <h3>Let's Talk: 123456789</h3>
 
-  </div>
-  <div class="column">
-    <img src="Images/web development.jpg" alt="room 3" class="image" style="width:100%">
-    <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... One of the most important of these is a topic sentence.</p>
-
-  </div>
-  <div class="column">
-    <img src="Images/content writing.jpg" alt="room 4" class="image" style="width:100%">
-    <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... One of the most important of these is a topic sentence.</p>
-
-  </div>
-  <div class="column">
-    <img src="Images/laravel.jpg" alt="room 5" class="image" style="width:100%">
-    <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... One of the most important of these is a topic sentence.</p>
-
-  </div>
-  <div class="column">
-    <img src="Images/web development.jpg" alt="room 6" class="image" style="width:100%">
-    <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... One of the most important of these is a topic sentence.</p>
-
-  </div>
-</div>
-
-  <footer class="footer">
-    &copy; Copyright ourwebsite.com
+          </center>
+      </div>
+    </div>
+    <div class="card" style="background-color: rgb(0,0,0);">
+      <div class="card-body" style="color: white; padding-top: 50px; padding-bottom: 63px;">
+        <center>
+          <h5> &copy; Copyright ourwebsite.com</h5>
+        </center>
+      </div>
+    </div>
 
   </footer>
+
 </body>
 
 </html>
